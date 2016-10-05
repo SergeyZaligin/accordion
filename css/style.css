@@ -1,0 +1,27 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+article, aside, details, figcaption,
+figure, footer, header, hgroup, main,
+menu, nav, section, summary {
+  display: block;
+}
+body{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.b-accordion{
+  width: 35%;
+  min-width: 300px;
+  margin: auto;
+}
+.b-accordion__title{
+  padding: 7px;
+  margin-bottom: 5px;
+  background-color: #FFCD41;
+  color:#fff;
+}
+.b-accordion__content{
+  padding: 10px 5px;
+}
